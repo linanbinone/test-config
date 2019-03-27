@@ -1,0 +1,15 @@
+server:
+  port: 8888
+#spring:
+#  profiles:
+#    include: subversion
+#  cloud:
+#    config:
+#      server:
+#        svn:
+#          uri: svn://svn.ttsales.com.cn/source/renault/renault-config/trunk/src/main/resources
+#          username: zhuweijie
+#          password: ltzwj
+#          default-label: config-repo
+#          search-paths: "*"
+#          basedir: ${user.home}/config-repo

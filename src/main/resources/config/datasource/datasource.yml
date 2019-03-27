@@ -1,0 +1,16 @@
+datasource:
+  renault-platform:
+    driverClassName: com.mysql.jdbc.Driver
+    max-active: 200
+    max-idle: 5
+    min-idle: 5
+    test-on-borrow: true
+    validation-query: select 1
+    test-while-idle: true
+
+spring:
+   datasource:
+       tomcat:
+         test-on-borrow: false
+         test-while-idle: true
+         time-between-eviction-runs-millis: 18800

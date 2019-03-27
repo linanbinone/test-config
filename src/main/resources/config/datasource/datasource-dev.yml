@@ -1,0 +1,5 @@
+datasource:
+  test:
+    url: jdbc:mysql://10.137.1.31:3306/renault_mall?useUnicode=true&characterEncoding=UTF8&autoReconnect=true
+    username: renault_mall
+    password: renault_mall
