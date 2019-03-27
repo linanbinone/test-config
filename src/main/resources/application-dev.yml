@@ -10,3 +10,6 @@ spring:
       server:
         git:
           uri: https://github.com/linanbinone/test-config/
+          search-paths: config
+          username: linanbinone
+          password: 1993724lin
