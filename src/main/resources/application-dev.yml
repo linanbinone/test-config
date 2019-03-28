@@ -1,15 +1,14 @@
 server:
   port: 8888
-  servlet:
-    context-path: test-config
 spring:
-  application:
-    name: spring-cloud-config-server
   cloud:
     config:
       server:
         git:
-          uri: https://github.com/linanbinone/test-config/
-          search-paths: config
-          username: linanbinone
-          password: 1993724lin
+          uri: https://github.com/linanbinone/test-config.git
+          search-paths: src/main/resources/config/*
+          default-label: master
+#          username: linanbinone
+#          password: 1993724lin
+
+      
